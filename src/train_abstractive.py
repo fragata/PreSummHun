@@ -188,8 +188,8 @@ def validate(args, device_id, pt, step):
 
     #tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased', do_lower_case=False, cache_dir=args.temp_dir)
     #tokenizer = BertTokenizer.from_pretrained('hubert-wiki', do_lower_case=False, cache_dir=None)
-    tokenizer = BertTokenizer.from_pretrained('hubert-web', do_lower_case=False, cache_dir=None)
-    #tokenizer = BertTokenizer.from_pretrained('nybert', do_lower_case=False, cache_dir=None)
+    #tokenizer = BertTokenizer.from_pretrained('hubert-web', do_lower_case=False, cache_dir=None)
+    tokenizer = BertTokenizer.from_pretrained('libert-large', do_lower_case=False, cache_dir=None)
 
     symbols = {'BOS': tokenizer.vocab['[unused5]'], 'EOS': tokenizer.vocab['[unused1]'],
                'PAD': tokenizer.vocab['[PAD]'], 'EOQ': tokenizer.vocab['[unused2]']}
@@ -224,8 +224,8 @@ def test_abs(args, device_id, pt, step):
                                        shuffle=False, is_test=True)
     #tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased', do_lower_case=False, cache_dir=args.temp_dir)
     #tokenizer = BertTokenizer.from_pretrained('hubert-wiki', do_lower_case=False, cache_dir=None)
-    tokenizer = BertTokenizer.from_pretrained('hubert-web', do_lower_case=False, cache_dir=None)
-    #tokenizer = BertTokenizer.from_pretrained('nybert', do_lower_case=False, cache_dir=None)
+    #tokenizer = BertTokenizer.from_pretrained('hubert-web', do_lower_case=False, cache_dir=None)
+    tokenizer = BertTokenizer.from_pretrained('libert-large', do_lower_case=False, cache_dir=None)
 
     symbols = {'BOS': tokenizer.vocab['[unused5]'], 'EOS': tokenizer.vocab['[unused1]'],
                'PAD': tokenizer.vocab['[PAD]'], 'EOQ': tokenizer.vocab['[unused2]']}
@@ -256,8 +256,8 @@ def test_text_abs(args, device_id, pt, step):
                                        shuffle=False, is_test=True)
     #tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased', do_lower_case=False, cache_dir=args.temp_dir)
     #tokenizer = BertTokenizer.from_pretrained('hubert-wiki', do_lower_case=False, cache_dir=None)
-    tokenizer = BertTokenizer.from_pretrained('hubert-web', do_lower_case=False, cache_dir=None)
-    #tokenizer = BertTokenizer.from_pretrained('nybert', do_lower_case=False, cache_dir=None)
+    #tokenizer = BertTokenizer.from_pretrained('hubert-web', do_lower_case=False, cache_dir=None)
+    tokenizer = BertTokenizer.from_pretrained('libert-large', do_lower_case=False, cache_dir=None)
 
     symbols = {'BOS': tokenizer.vocab['[unused5]'], 'EOS': tokenizer.vocab['[unused1]'],
                'PAD': tokenizer.vocab['[PAD]'], 'EOQ': tokenizer.vocab['[unused2]']}
@@ -336,8 +336,8 @@ def train_abs_single(args, device_id):
 
     #tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased', do_lower_case=False, cache_dir=args.temp_dir)
     #tokenizer = BertTokenizer.from_pretrained('hubert-wiki', do_lower_case=False, cache_dir=None)
-    tokenizer = BertTokenizer.from_pretrained('hubert-web', do_lower_case=False, cache_dir=None)
-    #tokenizer = BertTokenizer.from_pretrained('nybert', do_lower_case=False, cache_dir=None)
+    #tokenizer = BertTokenizer.from_pretrained('hubert-web', do_lower_case=False, cache_dir=None)
+    tokenizer = BertTokenizer.from_pretrained('libert-large', do_lower_case=False, cache_dir=None)
 
     symbols = {'BOS': tokenizer.vocab['[unused5]'], 'EOS': tokenizer.vocab['[unused1]'],
                'PAD': tokenizer.vocab['[PAD]'], 'EOQ': tokenizer.vocab['[unused2]']}

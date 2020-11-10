@@ -209,7 +209,7 @@ class BertData():
         self.args = args
         #self.tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-cased', do_lower_case=True)
         #self.tokenizer = BertTokenizer.from_pretrained('hubert',do_lower_case=False)
-        #self.tokenizer = BertTokenizer.from_pretrained('nybert',do_lower_case=False)
+        self.tokenizer = BertTokenizer.from_pretrained('libert-large',do_lower_case=False)
 
         self.sep_token = '[SEP]'
         self.cls_token = '[CLS]'

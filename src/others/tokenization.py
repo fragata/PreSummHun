@@ -36,19 +36,19 @@ PRETRAINED_VOCAB_ARCHIVE_MAP = {
     'bert-base-chinese': "https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt",
     'hubert-wiki': "/home/fragata/SUM/PreSumm/hubert_tokenizer/hubert_wiki/vocab.txt",
     'hubert-web': "/home/fragata/SUM/PreSumm/hubert_tokenizer/hubert_web/vocab.txt",
-    'nybert': "/home/fragata/NyBERT/ujbert/vocabsum.txt",
+    'libert-large': "bert-large/vocab.txt",
 }
 PRETRAINED_VOCAB_POSITIONAL_EMBEDDINGS_SIZE_MAP = {
-    'bert-base-uncased': 600,
+    'bert-base-uncased': 512,
     'bert-large-uncased': 512,
     'bert-base-cased': 512,
     'bert-large-cased': 512,
     'bert-base-multilingual-uncased': 512,
-    'bert-base-multilingual-cased': 600,
+    'bert-base-multilingual-cased': 512,
     'bert-base-chinese': 512,
-    'hubert-wiki' : 512,
-    'hubert-web' : 512,
-    'nybert' : 512,
+    'hubert-wiki': 512,
+    'hubert-web': 512,
+    'libert-large': 512,
 }
 VOCAB_NAME = 'vocab.txt'
 

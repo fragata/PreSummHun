@@ -2,5 +2,6 @@ bert_data/
 bert-large/
 logs/
 results/
+models/
 bert_data.tar.gz
 bert-large.tar.gz

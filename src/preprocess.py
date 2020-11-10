@@ -53,13 +53,13 @@ if __name__ == '__main__':
     parser.add_argument("-shard_size", default=2000, type=int)
     parser.add_argument('-min_src_nsents', default=1, type=int)
     parser.add_argument('-max_src_nsents', default=1000, type=int)
-    parser.add_argument('-min_src_ntokens_per_sent', default=1, type=int)
+    parser.add_argument('-min_src_ntokens_per_sent', default=5, type=int)
     parser.add_argument('-max_src_ntokens_per_sent', default=1000, type=int)
-    parser.add_argument('-min_tgt_ntokens', default=1, type=int)
+    parser.add_argument('-min_tgt_ntokens', default=5, type=int)
     parser.add_argument('-max_tgt_ntokens', default=1000, type=int)
 
     parser.add_argument("-lower", type=str2bool, nargs='?',const=False,default=False)
-    parser.add_argument("-use_bert_basic_tokenizer", type=str2bool, nargs='?',const=True,default=False)
+    parser.add_argument("-use_bert_basic_tokenizer", type=str2bool, nargs='?',const=False,default=False)
 
     parser.add_argument('-log_file', default='../../logs/cnndm.log')
 
