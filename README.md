@@ -24,9 +24,7 @@ Mappastruktúra:
 │   ├── config.json
 │   ├── pytorch_model.bin
 │   └── vocab.txt
-├── bert-large.tar.gz
 ├── logs
-│   └── abs-large
 ├── models
 ├── README.md
 ├── requirements.txt
